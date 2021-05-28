@@ -1,0 +1,13 @@
+C:\Users\HazePC\Desktop\QualExam\src\QualExam\bin\Debug\netcoreapp3.1\QualExam.exe
+C:\Users\HazePC\Desktop\QualExam\src\QualExam\bin\Debug\netcoreapp3.1\QualExam.deps.json
+C:\Users\HazePC\Desktop\QualExam\src\QualExam\bin\Debug\netcoreapp3.1\QualExam.runtimeconfig.json
+C:\Users\HazePC\Desktop\QualExam\src\QualExam\bin\Debug\netcoreapp3.1\QualExam.runtimeconfig.dev.json
+C:\Users\HazePC\Desktop\QualExam\src\QualExam\bin\Debug\netcoreapp3.1\QualExam.dll
+C:\Users\HazePC\Desktop\QualExam\src\QualExam\bin\Debug\netcoreapp3.1\QualExam.pdb
+C:\Users\HazePC\Desktop\QualExam\src\QualExam\obj\Debug\netcoreapp3.1\QualExam.csprojAssemblyReference.cache
+C:\Users\HazePC\Desktop\QualExam\src\QualExam\obj\Debug\netcoreapp3.1\QualExam.AssemblyInfoInputs.cache
+C:\Users\HazePC\Desktop\QualExam\src\QualExam\obj\Debug\netcoreapp3.1\QualExam.AssemblyInfo.cs
+C:\Users\HazePC\Desktop\QualExam\src\QualExam\obj\Debug\netcoreapp3.1\QualExam.csproj.CoreCompileInputs.cache
+C:\Users\HazePC\Desktop\QualExam\src\QualExam\obj\Debug\netcoreapp3.1\QualExam.dll
+C:\Users\HazePC\Desktop\QualExam\src\QualExam\obj\Debug\netcoreapp3.1\QualExam.pdb
+C:\Users\HazePC\Desktop\QualExam\src\QualExam\obj\Debug\netcoreapp3.1\QualExam.genruntimeconfig.cache
