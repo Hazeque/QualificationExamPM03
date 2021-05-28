@@ -13,6 +13,7 @@ namespace QualExam
                 App[] Apps = new App[quantity];
                 App.Read(Apps);
                 App.Sort(Apps);
+                App.WriteMas(Apps);
 
             }
             catch (Exception ex)

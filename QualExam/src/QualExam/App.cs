@@ -75,6 +75,16 @@ namespace QualExam
             }
             return Apps;
         }
+        public static void WriteMas(App[] Apps)
+        {
+            using (StreamWriter sw = new StreamWriter(@"Apps.txt" /*, false, System.Text.Encoding.Default*/))
+            {
+                foreach (App a in Apps)
+                {
+                    sw.WriteLine($"Наименование: {a.Name}\nПроизводитель:{a.Creator}\nЦена:{a.Price}\n\n\n");
+                }
+            }
+        }
 
     }
 }
