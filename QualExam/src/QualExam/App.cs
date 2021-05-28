@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 
-
 namespace QualExam
 {
     class App
@@ -40,44 +39,61 @@ namespace QualExam
             for (int i = 0; i < Apps.Length; i++)
             {
                 Apps[i] = new App();
-                Console.WriteLine("Введите наименование программы");
+                Console.WriteLine("Введите наименование программы: ");
                 Apps[i].Name = Console.ReadLine();
-                Console.WriteLine("Введите производителя программы");
+                Console.WriteLine("Введите производителя программы: ");
                 Apps[i].Creator = Console.ReadLine();
-                Console.WriteLine("Введите цену программы");
+                Console.WriteLine("Введите цену программы: ");
                 Apps[i].Price = Convert.ToDouble(Console.ReadLine());
             }
             return Apps;
         }
 
+        public static bool operator > (App First, App Second)
+        {
+            if (string.Compare(First.Creator, Second.Creator) == -1) 
+                return true;
+            else if (string.Compare(First.Creator, Second.Creator) == 1) 
+                return false;
+            else if (First.Price > Second.Price) 
+                return true;
+            else 
+                return false;
+        }
+
+        public static bool operator < (App First, App Second)
+        {
+            if (string.Compare(First.Creator, Second.Creator) == -1)
+                return true;
+            else if (string.Compare(First.Creator, Second.Creator) == 1) 
+                return false;
+            else if (First.Price > Second.Price) 
+                return true;
+            else 
+                return false;
+        }
+
         public static App[] Sort(App[] Apps)
         {
-            for (int i = 0; i < Apps.Length - 1; i++)
+            for (int i = 0; i < Apps.Length; i++)
             {
-                for (int j = 0; j < Apps.Length - i - 1; j++)
+                for (int j = 0; j < Apps.Length; j++)
                 {
-                    if (string.Compare(Apps[j].Creator, Apps[j+1].Creator) == -1)
+                    if (Apps[i] > Apps[j])
                     {
-                        App buffer = Apps[j];
-                        Apps[j] = Apps[j + 1];
-                        Apps[j + 1] = buffer;
-                    }
-                    else if (string.Compare(Apps[j].Creator, Apps[j + 1].Creator) == 0)
-                    {
-                        if (Apps[j].Price < Apps[j+1].Price)
-                        {
-                            App buffer = Apps[j];
-                            Apps[j] = Apps[j + 1];
-                            Apps[j + 1] = buffer;
-                        }
+                        App buffer = Apps[i];
+                        Apps[i] = Apps[j];
+                        Apps[j] = buffer;
                     }
                 }
             }
             return Apps;
         }
+
         public static void WriteMas(App[] Apps)
         {
-            using (StreamWriter sw = new StreamWriter(@"Apps.txt" /*, false, System.Text.Encoding.Default*/))
+            
+            using (StreamWriter sw = new StreamWriter(@"Apps.txt"))
             {
                 foreach (App a in Apps)
                 {
@@ -85,7 +101,6 @@ namespace QualExam
                 }
             }
         }
-
     }
 }
 
