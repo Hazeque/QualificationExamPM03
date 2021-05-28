@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HazePC\\Desktop\\QualExam\\QualExam\\QualExam.csproj": {}
+    "C:\\Users\\HazePC\\Desktop\\QualExam\\src\\QualExam\\QualExam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HazePC\\Desktop\\QualExam\\QualExam\\QualExam.csproj": {
+    "C:\\Users\\HazePC\\Desktop\\QualExam\\src\\QualExam\\QualExam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HazePC\\Desktop\\QualExam\\QualExam\\QualExam.csproj",
+        "projectUniqueName": "C:\\Users\\HazePC\\Desktop\\QualExam\\src\\QualExam\\QualExam.csproj",
         "projectName": "QualExam",
-        "projectPath": "C:\\Users\\HazePC\\Desktop\\QualExam\\QualExam\\QualExam.csproj",
+        "projectPath": "C:\\Users\\HazePC\\Desktop\\QualExam\\src\\QualExam\\QualExam.csproj",
         "packagesPath": "C:\\Users\\HazePC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HazePC\\Desktop\\QualExam\\QualExam\\obj\\",
+        "outputPath": "C:\\Users\\HazePC\\Desktop\\QualExam\\src\\QualExam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HazePC\\AppData\\Roaming\\NuGet\\NuGet.Config",
